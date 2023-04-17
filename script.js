@@ -23,13 +23,13 @@ function updateMessages() {
 encryptBtn.addEventListener('click', () => {
     const text = inputText.value.toLowerCase();
     outputText.value = encrypt(text);
-    updateMessages(); // Agregar esta línea
+    updateMessages(); 
 });
 
 decryptBtn.addEventListener('click', () => {
     const text = inputText.value.toLowerCase();
     outputText.value = decrypt(text);
-    updateMessages(); // Agregar esta línea
+    updateMessages(); 
 });
 
 copyBtn.addEventListener('click', () => {
